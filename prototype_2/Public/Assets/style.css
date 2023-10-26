@@ -1,0 +1,87 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.button {
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 35px;
+    display: block;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttonAdd {
+    background-color: #008CBA;
+}
+
+.buttonDelete {
+    background-color: #f44336;
+}
+
+.buttonUpdate {
+    background-color: #04AA6D;
+
+}
+
+.buttonCancel {
+    background-color: #e7e7e7;
+    color: black;
+
+}
+/* form  */
+
+input[type=text],
+input[type=number],
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit]:hover {
+    background-color: #008CBA;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
